@@ -17,3 +17,14 @@ jobs:
         
         - name: Read file
           run: cat README.md
+        
+        - name: Multi- Line Commands
+          run: |
+            echo "My First GitHub Actions"
+            ls
+            cat README.md
+        
+        - name: Execute Shell Script
+          run: ./ascii-script.sh
+
+            
